@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jesusin567   libroteca </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Libroteca</h1>
+        <nav>
+            <button onclick="showMessage('Inicio de Sesión')">Inicio de Sesión</button>
+            <button onclick="showMessage('Registro')">Registro</button>
+        </nav>
+    </header>
+    
+    <section class="steps">
+        <div>
+            <img src="img/libro.png" alt="Elige tu libro">
+            <h2>Elige tu libro</h2>
+        </div>
+        <div>
+            <img src="img/check.png" alt="Revisa disponibilidad">
+            <h2>Revisa disponibilidad</h2>
+        </div>
+        <div>
+            <img src="img/separalo.png" alt="Sepáralo">
+            <h2>Sepáralo</h2>
+        </div>
+        <div>
+            <img src="img/shipping.png" alt="Recíbelo">
+            <h2>Recíbelo</h2>
+        </div>
+    </section>
+    
+    <section class="genres">
+        <button onclick="changeGenre('Ficción')">Ficción</button>
+        <button onclick="changeGenre('Históricos')">Históricos</button>
+        <button onclick="changeGenre('Tecnología')">Tecnología</button>
+        <button onclick="changeGenre('Autoayuda')">Autoayuda</button>
+        <button onclick="changeGenre('Poesía')">Poesía</button>
+    </section>
+    
+    <h2 class="main-title" id="genre-title">Todos los Libros</h2>
+    
+    <section class="book-list">
+        <div class="book">
+            <img src="img/cien.jpg" alt="Cien Años de Soledad">
+            <div class="book-title">Cien Años de Soledad<br>Gabriel García Márquez</div>
+            <button class="rent-button" onclick="rentBook(this)">Rentar</button>
+        </div>
+        <div class="book">
+            <img src="img/rayuela.jpg" alt="Rayuela">
+            <div class="book-title">Rayuela<br>Julio Cortázar</div>
+            <button class="rent-button" onclick="rentBook(this)">Rentar</button>
+        </div>
+        <div class="book">
+            <img src="img/travesuras.jpg" alt="Travesuras de la Niña Mala">
+            <div class="book-title">Travesuras de la Niña Mala<br>Mario Vargas Llosa</div>
+            <button class="rent-button" onclick="rentBook(this)">Rentar</button>
+        </div>
+    </section>
+    
+    <footer>
+        Todos los derechos reservados. Libroteca.
+    </footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="java.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="java.js"></script>
+
+
+</body>
+</html>
